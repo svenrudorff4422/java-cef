@@ -127,7 +127,7 @@ set_property(GLOBAL PROPERTY OS_FOLDERS ON)
 #
 # CEF configuration.
 #
-
+set(CEF_VERSION "138.0.48+g8bf7dad+chromium-138.0.7204.255")
 # Specify the CEF distribution version.
 if(NOT DEFINED CEF_VERSION)
   set(CEF_VERSION "139.0.17+g6c347eb+chromium-139.0.7258.31")
